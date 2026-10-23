@@ -1,11 +1,11 @@
 from typing import Generic, TypeVar
-from student_app.protocols import EntityWithId
+from shop_app.protocols import EntityWithId
 
 T = TypeVar("T", bound=EntityWithId)
 
 
 class InMemoryRepository(Generic[T]):
-    """Generic in-memory repository implementation constrained by EntityWithId."""
+    """Generic repository implementation for entities with ID."""
 
     def __init__(self) -> None:
         self._storage: dict[int, T] = {}

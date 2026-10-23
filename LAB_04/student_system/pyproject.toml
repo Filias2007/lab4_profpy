@@ -1,7 +1,7 @@
 [project]
-name = "student-app"
+name = "shop-app"
 version = "0.1.0"
-description = "Lab 4 - Professional OOP and Type System in Python (Student Accounting System)"
+description = "Lab 4 - Professional OOP and Type System in Python (Online Store System)"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = []
